@@ -1,0 +1,31 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-box {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 4px;
+    z-index: 1000;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  
+  .tooltip-box::after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+  

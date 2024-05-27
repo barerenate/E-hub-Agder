@@ -1,0 +1,169 @@
+
+.navbar {
+    height: 60px;
+    background-color: #F3F3E5; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+    top: 0;
+    width: 100%;   
+}
+
+.nav-logo {
+    margin-top: 6px;
+    z-index: 2;
+}
+
+.nav-menu .apply-button {
+    margin-left: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0; 
+    margin: 0;
+    margin-left: 20px;
+    height: 100%;
+    width:100%;
+    color: #1B4B36;
+    font-weight: 350;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-item:hover {
+    background-color: #d7d7c9; 
+
+}
+
+.nav-item.nav-item.desktop:hover {
+    background-color: transparent; 
+}
+
+.nav-item.apply-button:hover {
+    background-color:transparent;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1B4B36;
+    padding: 15px;
+}
+
+.nav-item.desktop {
+    padding: 25px;
+}
+
+.nav-item.desktop img{
+    height: 25px;
+}
+
+.menu-icon {
+    display: none;
+    z-index: 2;
+}
+
+.nav-item.mobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .menu-icon {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        height: 30px;
+    }
+
+    .menu-icon img {
+        height: 30px;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        right: -100%;
+        position: absolute;
+    }
+
+    .nav-menu.active {
+        position: fixed;
+        background-color: #F3F3E5; 
+        top: 60px;
+        gap: 0;
+        right: 0;
+        margin: 0;
+        width: 50%;
+        height: 100%;
+        transition: right 0.4s;
+        border-top: 1px solid rgba(0, 0, 0, 0.072);
+        border-left: 1px solid rgba(0, 0, 0, 0.072);
+    }
+
+    .nav-item {
+        max-height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item.mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F3F3E5; 
+    }
+
+    .nav-item.mobile img {
+        height: 25px;
+    }
+
+    .nav-link.mobile {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-link.mobile:hover {
+        background-color: #d7d7c9; 
+    }
+
+    .nav-item.desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .nav-menu.active {
+        position: fixed;
+        gap: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        transition: right 0.4s;
+    }
+}

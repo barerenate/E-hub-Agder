@@ -1,0 +1,409 @@
+/*hva er e-hub agder seksjon*/
+.video-section {
+    background-color: #fffff2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7%;
+    padding: 3% 7.5% 3% 7.5%;
+    max-width: 2000px;
+    margin:auto;
+}
+
+.video-section-left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-section-right-column {
+    display: flex;
+    justify-content: center;
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video-section-row {
+    margin-top: 15px;
+}
+
+.video-section-title {
+    letter-spacing: 1.05px;
+    font-family: "Archivo";
+    font-weight: 850;
+    font-size: 28px;
+    color: #092A35;
+}
+
+.video-section-subtitle {
+    letter-spacing: 1.05px;
+    font-family: "Archivo";
+    font-weight: 200;
+    font-size: 20px;
+    color: #092A35;
+}
+
+.video-section-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: 350;
+    line-height: 20px;
+    color: #353535;
+}
+
+.video-points-section {
+    width: 100%;
+    background-color: #4b7854;
+}
+
+.video-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7%;
+    padding: 60px 7.5% 60px 7.5%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.video-points-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    color: #fffff2;
+    font-family: "Roboto";
+    width: 310px;
+}
+
+.video-points-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.video-points-text {
+    font-weight: 350;
+    line-height: 20px;
+}
+
+
+/*pristabell seksjon*/
+.price-table-section {
+    width: 100%;
+    background-color: #1F573F;
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0 7% 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-table-title {
+    letter-spacing: 1.05px;
+    font-family: "Archivo";
+    font-weight: 850;
+    font-size: 28px;
+    color: #fffff2;
+}
+
+.price-table-subtitle {
+    font-family: "Roboto";
+    font-weight: 350;
+    font-size: 16px;
+    color: #fffff2;
+    max-width: 350px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/*hero-seksjon*/
+.home-hero {
+    height: 550px;
+    background-color: #1F573F;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-hero-left-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    justify-content: center;
+}
+
+.home-hero-right-column {
+    width: 50%;
+    overflow: hidden;
+}
+
+
+/*hero video hvis vi vil bruke den*/
+.hero-video {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+}
+
+
+.home-hero-title-white {
+    color: #fffff2;
+    letter-spacing: 1.05px;
+    font-family: "Archivo";
+    font-weight: 850;
+    font-size: 45px;
+}
+
+.home-hero-title-green {
+    color: #CFEE91;
+    letter-spacing: 1.05px;
+    font-family: "Archivo";
+    font-weight: 850;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.home-hero-subtitle {
+    color: #fffff2;
+    font-family: "Archivo";
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.home-hero-text {
+    color: #fffff2;
+    font-family: "Roboto";
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.green-text {
+    color: #CFEE91;
+    font-weight: 500;
+}
+
+.home-hero-banner {
+    height: 70px;
+    width: 100%;
+    background-color: #598662;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 7% 0% 7%;
+}
+
+/*fordeler seksjon*/
+.benefits-section {
+    width: 100%;
+    background-color: #fffff2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 4% 3% 4%;
+}
+
+.benefits-title {
+    font-family: "Archivo";
+    font-weight: 850;
+    font-size: 28px;
+    color: #092A35;
+}
+
+.benefits-subtitle {
+    font-weight: 350;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #353535;
+    max-width: 400px;
+    text-align: center;
+}
+
+.benefits-cards {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.benefits-card {
+    height: 300px;
+    max-width: 400px;
+    padding: 2%;
+}
+
+.benefits-header { 
+    letter-spacing: 1.05px;
+    margin-bottom: 2%; /* Legger til plass mellom headeren og rutenettet */
+  }
+
+.benefit-subheader{
+    text-align: center;
+    letter-spacing: 0.05px;
+    font-family: "Archivo";
+    font-weight: 500;
+    font-size: 18px;
+    color: #092A35;
+}
+
+.benefit-content {
+    text-align: center;
+    color: #353535;
+    font-weight: 350;
+    line-height: 20px;
+}
+
+.benefit-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-card-section {
+    width: 100%;
+    background-color: #F3F3E5;
+}
+
+
+/*reponsivt*/
+@media screen and (max-width: 1430px) {
+
+    .home-hero-title-white {
+        font-size: 35px;
+    }
+    .home-hero-title-green {
+        font-size: 35px;
+    }
+
+    .home-hero-subtitle {
+        font-size: 18px;
+    }
+    .home-hero-text {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .benefits-contact-card {
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .video-section {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .home-hero-row {
+        padding-right: 0px;
+    }
+
+    .home-hero {
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+    .hero-video {
+        width: 100%;
+        height: 34vh;
+        margin-top: 60px;
+    }
+    .video-trim {
+        max-height: 30vh;
+        overflow: hidden;
+    }
+    .home-hero-right-column {
+        width: 100%;
+
+    }
+
+    .home-hero-left-column {
+ 
+        width: 100%;
+        padding-top:60px;
+    }
+
+
+
+    .home-hero-banner-logo {
+        width: 80%;
+    }
+    .video-section {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .video-section-left-column {
+        width: 100%;
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    .video-section-right-column {
+        width: 100%;
+    }
+
+    .home-image {
+        height: 350px;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+
+    .benefits-subtitle {   
+        width: 75%;
+    }
+    .video-points {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap:40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .video-section {
+        height: fit-content;
+    }
+    .video-section-row {
+        width: 90%;
+    }
+
+    .price-table-subtitle {
+        width: 300px;
+    }
+
+    .benefits-card {
+        width: 90%;
+    }
+    .benefits-contact-card {
+        width: 90%;
+        height: 98%;
+    }
+    .video-points {
+        padding-top: 50px;
+    }
+}

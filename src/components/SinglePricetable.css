@@ -1,0 +1,123 @@
+.single-price-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom:60px;
+
+
+}
+
+.single-price-table {
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+    border-collapse: collapse;
+    color: white;
+    width: 100%;
+}
+
+.single-price-table td {
+    padding: 10px 25px;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+.single-table-col {
+    max-width: 260px;
+}
+
+.single-table-head {
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Archivo"; 
+    letter-spacing: 0.8px;
+}
+
+.single-table-head th {
+    padding: 0px 0 15px 25px;
+    font-weight: 600;
+}
+
+.single-col-one.single-head {
+    text-align: left;
+}
+
+.single-col-one {
+    background-color: #1f573f;
+}
+
+.single-col-info {
+    background-color: #1f573f;
+}
+
+.single-col-info img {
+    padding: 0;
+}
+
+.single-col-alt {
+    background-color: #51815a;
+    text-align: center;
+}
+
+.single-col-three {
+    text-align: center;
+}
+
+.single-final-row {
+    border: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .single-price-table-container {
+        font-size: 0.8750em;
+    }
+
+    .single-price-table {
+        width: 100%;
+    }
+
+    .single-table-head {
+        letter-spacing: 0;
+    }
+
+    .single-table-head th{
+        padding: 0px 0 10px 10px;
+        font-weight: 500;
+    }
+
+    .single-table-col {
+        width: 160px;
+    }
+    
+    .single-final-row {
+        display: none;
+    }
+
+    .single-col-info {
+        display: none;
+    }
+
+    .single-price-table td {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+
+    .single-price-table-container {
+        padding-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .single-table-head th{
+        padding: 8px 3px;
+        font-weight: 400;
+    }
+
+    .single-price-table td {
+        padding: 8px 5px;
+        font-weight: 300;
+    }
+}

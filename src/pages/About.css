@@ -1,0 +1,136 @@
+
+.white-container {
+    background-color: #FFFFF2;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.green-container {
+    background-color: #1B4B36;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFF2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-one-left-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 0 7.5% 0 7.5% ;
+}
+
+.page-one-right-column {
+    width: 50%;
+}
+
+.page-one-left-column p {
+    font-weight: 350;
+    margin-bottom: 20px;
+    margin-top:0px;
+    line-height: 20px;
+    color: #353535;
+}
+
+.page-two-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 7.5% 0 7.5%;
+}
+
+.page-two-heading p {
+   font-weight: 350;
+   line-height: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 20px 0 20px;
+}
+
+.agder-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hubs-headline {
+    font-size: 28px;
+    font-family: "Archivo";
+    font-weight: 850;
+    color: #1B4B36;
+    letter-spacing: 1.05px;
+    margin-bottom: 20px;
+}
+
+.collab-headline {
+    font-size: 28px;
+    font-family: "Archivo";
+    font-weight: 850;
+    color: #FFFFF2;
+    letter-spacing: 1.05px;
+}
+
+.our-history-headline
+{
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: "Archivo";
+  letter-spacing: 1.05px;
+  color: #1B4B36;
+}
+
+
+@media (max-width: 960px) {
+    .white-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .page-one-left-column {
+        padding: 0 7.5% 0 7.5% ;
+    }
+
+    .page-one-right-column {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+    .agder-image {
+        height: 400px;
+    }
+
+    .page-one-left-column {
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .collab-headline {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 782px) {
+
+    .agder-image {
+        height: 300px;
+    }
+}
+
