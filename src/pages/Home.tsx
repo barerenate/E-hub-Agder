@@ -34,7 +34,7 @@ function Home() {
           </div>
           <div className="home-hero-row">
             <div className="home-hero-subtitle">
-              ET SAMARBEID FOR <span className="green-text">VEKST</span> I
+              ET SAMARBEID FOR <span className="green-text">VEKSTT</span> I
               E-HANDEL
             </div>
           </div>
